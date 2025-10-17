@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "ARTreasureHuntExpo",
+    "slug": "ARTreasureHuntExpo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "artreasurehuntexpo",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to display AR objects when you find treasures.",
+        "NSLocationWhenInUseUsageDescription": "We use your location to help you find hidden treasures.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "We use your location to help you find hidden treasures."
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png"
+      },
+      "package": "com.abdullahishtiaq.ARTreasureHuntExpo"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-asset"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9c544b54-f61c-47f5-a1b2-a916f8dab85e"
+      }
+    }
+  }
+}
