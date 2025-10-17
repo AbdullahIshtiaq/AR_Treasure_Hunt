@@ -13,8 +13,10 @@
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to display AR objects when you find treasures.",
         "NSLocationWhenInUseUsageDescription": "We use your location to help you find hidden treasures.",
-        "NSLocationAlwaysAndWhenInUseUsageDescription": "We use your location to help you find hidden treasures."
-      }
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "We use your location to help you find hidden treasures.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "bundleIdentifier": "com.abdullahishtiaq.ARTreasureHuntExpo"
     },
     "android": {
       "permissions": [
